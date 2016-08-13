@@ -62,21 +62,35 @@
     // }
     // console.log(vowel(str, res));
 
-    console.log('-------------------------------------------------------------');
-    console.log('Piglatin');
-    function translate(str) {
-     str=str.toLowerCase();
-     let n =str.search(/[aeiuo]/);
-     switch (n){
-       case 0: str = str+"way"; break;
-       case -1: str = str+"ay"; break;
-       default :
-         str=str.replace(/([^aeiou]*)([aeiou])(\w+)/, "$2$3$1ay");
-       break;
-    }
-    return str;
+//     console.log('-------------------------------------------------------------');
+//     console.log('Piglatin');
+//     function translate(str) {
+//      str=str.toLowerCase();
+//      let n =str.search(/[aeiuo]/);
+//      switch (n){
+//        case 0: str = str+"way"; break;
+//        case -1: str = str+"ay"; break;
+//        default :
+//          str=str.replace(/([^aeiou]*)([aeiou])(\w+)/, "$2$3$1ay");
+//        break;
+//     }
+//     return str;
 
-}
+// }
 
 
- console.log(translate("waffles"));
+//  console.log(translate("waffles"));
+
+// console.log('-------------------------------------------------------------');
+// console.log('weaver');
+
+// function weave(x, y) {
+//      x = x.split ("");
+
+//     for(let i = y - 1; i < x.length; i = i + y) {
+//     x[i] = "x";
+//     }
+//     return x;
+// }
+
+// console.log(weave("blah", 3));
