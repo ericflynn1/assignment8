@@ -94,3 +94,19 @@
 // }
 
 // console.log(weave("blah", 3));
+
+// console.log('-------------------------------------------------------------');
+// console.log('bonus');
+// let total = 9.99;
+// function bonus (amount){
+// let x = (amount * .2); 
+// amount = amount + x;
+
+// return (amount);
+// }
+// let answer = Math.ceil(bonus(total));
+// console.log(answer)
+
+('-------------------------------------------------------------');
+console.log('scrabble');
+let 
